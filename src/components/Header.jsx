@@ -1,15 +1,25 @@
 export default function Header() {
   return (
-    <header className="w-full px-6 py-4 flex justify-between items-center border-b border-zinc-800">
-      <span className="text-xl font-semibold tracking-wide">
-        Toloza
-      </span>
+    <header className="w-full bg-gray-900 text-white">
+      <nav className="max-w-7xl mx-auto h-16 px-6 flex items-center justify-between">
+        <div className="text-lg font-semibold tracking-wide">
+          Toloza.dev
+        </div>
 
-      <nav className="flex gap-6 text-sm text-zinc-400">
-        <a href="#proyectos" className="hover:text-cyan-400">Proyectos</a>
-        <a href="#habilidades" className="hover:text-cyan-400">Habilidades</a>
-        <a href="#contacto" className="hover:text-cyan-400">Contacto</a>
-      </nav>
+        <ul className="hidden md:flex gap-6 text-sm">
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer">
+            Inicio
+          </li>
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer">
+            Proyectos
+          </li>
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer">
+            Contacto
+          </li>
+        </ul>
+
+
+        </nav>
     </header>
   )
 }
