@@ -6,7 +6,7 @@ import imprimemoImage from "../assets/projects/imprimemo.png";
 
 export default function Projects() {
   return (
-    <section className="max-w-6xl mx-auto px-6 pt-20 pb-24 scroll-mt-20">
+    <section id="projects" className="max-w-5xl mx-auto px-6 pt-20 pb-24 scroll-mt-20">
       <h2 className="text-3xl font-semibold text-slate-100 mb-14">
         Proyectos
       </h2>
