@@ -1,0 +1,5 @@
+* ! trabajar por branches ##
+
+- estetica del sidebar 
+- agregar alert al resume 
+-
